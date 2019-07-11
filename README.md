@@ -9,7 +9,7 @@ IAM Role to create ec2 instance, load balancers and security groups
 Api key and Setuped domain on cloudflare
 
 ## Instalation
-## Make a local copy of variables:
+Make a local copy of variables:
 ```
 cp variables.tf variables_override.tf
 ```
@@ -26,6 +26,7 @@ terraform apply
 ```
 Review changes and type yes
 
+## Destroy
 If you want to destroy environment:
 ```
 terraform destroy
