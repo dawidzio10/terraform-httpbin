@@ -2,23 +2,34 @@
 
 Simple web server deployed in HA on AWS behind Cloudflare
 
-## Requirements:
-### AWS:
+## Requirements
+### AWS
 IAM Role to create ec2 instance, load balancers and security groups 
 ### Cloudflare
 Api key and Setuped domain on cloudflare
 
-Make a local copy of variables:
-```cp variables.tf variables_override.tf```
+## Instalation
+## Make a local copy of variables:
+```
+cp variables.tf variables_override.tf
+```
 
 Fill in all variables in variables_override.tf using vim/nano/whatever you like
 
-Deploy:
-
-```terraform init
+Init Terraform env:
+```
+terraform init
+```
+Deploy
+```
 terraform apply
 ```
+Review changes and type yes
 
+If you want to destroy environment:
+```
+terraform destroy
+```
 ---
 maintainer: Dawid Łęczycki
 ---
