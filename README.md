@@ -6,7 +6,7 @@ Simple web server deployed in HA on AWS behind CloudFlare
 ### AWS
 IAM Role to create EC2 instance, load balancer and security groups 
 ### CloudFlare
-Api key and Setuped domain on CloudFlare
+Api key and setuped domain on CloudFlare
 
 ## Instalation
 Make a local copy of variables:
@@ -31,6 +31,8 @@ If you want to destroy environment:
 ```
 terraform destroy
 ```
+Review changes and type yes
+
 ---
 maintainer: Dawid Łęczycki
 ---
